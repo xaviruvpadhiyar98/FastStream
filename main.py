@@ -15,10 +15,11 @@ headers = {
 }
 
 # proxy-setup if any
-PROXY_HOST = 'zproxy.lum-superproxy.io' 
-PROXY_PORT = 22225
-PROXY_USER = 'lum-customer-moovitdpt1-zone-birdsfresidential-session-$session'
-PROXY_PASS = 'x76b2glbaq0k'
+PROXY_HOST = '' 
+PROXY_PORT = 
+PROXY_USER = ''
+PROXY_PASS = ''
+PROXY_PASS = ''
 proxies = {'https':f'https://{PROXY_USER}:{PROXY_PASS}@{PROXY_HOST}:{PROXY_PORT}'}
 
 
